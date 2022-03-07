@@ -1,0 +1,37 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 25%;
+  align-self: stretch;
+  border-radius: 100%;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  background: #6a6767;
+  border-color: rgba(84, 77, 77, 0.25);
+  color: #FFFFFF;
+  font-size: 27px;
+  font-weight: 550;
+}
+
+button:hover {
+  background-color: #648e9c;
+}
+
+.clear {
+   color: #FF5733;
+}
+
+.operand {
+  color: #a4c639;
+}
+
+.equals {
+  border-radius: 90%;
+  font-size: 30px;
+  background-color: #a4c639;
+}
+
+.equals:hover {
+  background-color: rgb(228, 39, 15);
+}
